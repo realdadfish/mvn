@@ -16,4 +16,15 @@ Then, provide the dependency like so:
         ...
     }
 
+There is also a repackaged version of okio / okhttp that works with
+Android L build LVP79. Use these artifacts:
+
+    compile 'com.squareup.okio:okio:1.0.0-REPACKAGED'
+
+and
+
+    compile 'com.squareup.okhttp:okhttp:2.0.0-REPACKAGED-OKIO'
+
+respectively.
+
 - Thomas

@@ -27,4 +27,9 @@ and
 
 respectively.
 
+Finally, this repository contains a patched version of [ACRA 4.5.0](http://www.acra.ch) that make it work
+on Android Devices using ART until https://github.com/ACRA/acra/issues/136 is properly fixed. Include it like this:
+
+    compile 'ch.acra:acra:4.5.0-ART-FIX'
+
 - Thomas
